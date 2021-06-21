@@ -1,7 +1,7 @@
 
 // Get references to the #generate element
 const generateBtn = document.querySelector("#generate");
-const specialCharacters = "!@#$%^&*()";
+const specialCharacters = "#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 generateBtn.addEventListener('click',writePassword)
 
 // Write password to the #password input
